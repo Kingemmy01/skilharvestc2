@@ -1,1 +1,1 @@
-Frontend Dev Training at Skilvarvest
+Frontend Dev Training at Skilharvest
