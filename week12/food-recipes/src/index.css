@@ -1,0 +1,381 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.navbar .navbar-brand {
+    margin-right: 4rem;
+}
+
+.navbar .navbar-brand img {
+    width: 12rem;
+}
+
+.navbar .icons .icon {
+    font-size: 2rem;
+}
+
+.navbar .icons .icon:first-child {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-top: -1.5rem;
+}
+
+
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) {  
+    .navbar .navbar-brand {
+        margin-right: 1rem;
+    }
+    
+    .navbar .navbar-brand img {
+        width: 9rem;
+    }
+}
+
+/* navbar section ends */
+
+/* hero section starts */
+.hero {
+    background-image: url('../public/images/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 70vh;
+    /* padding: 7rem 0 15rem; */
+}
+
+.hero .content {
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(70%);
+}
+
+.hero .content .label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.hero .content .title {
+    font-size: 2.7rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+}
+
+.hero .content .title span {
+    color: #fe696a;
+}
+
+.hero .content .btn {
+    background-color: #fe696a;
+    color: #fff;
+    padding: .75rem 1.4rem;
+}
+
+.hero .content .btn:hover {
+    background: #fe4042;
+    cursor: pointer;
+}
+
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) {  
+    .hero {
+        background-size: cover;
+        height: 50vh;
+    }
+    
+    .hero .content {
+        top: 0;
+        transform: translateY(20%);
+    }
+    
+    .hero .content .label {
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .hero .content .title {
+        font-size: 1.7rem;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and lower) */
+@media (max-width: 768px) {  
+   
+}
+
+/* Large devices (desktops, 992px and lower) */
+@media (max-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and lower) */
+@media (max-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and lower) */
+@media (max-width: 1400px) {  }
+
+/* hero section ends */
+
+
+/* popular section starts */
+.popular {
+    padding: 3rem 0;
+}
+
+.popular .head {
+    text-align: center;
+    margin: 0 auto 3rem;
+}
+
+.popular .head .title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.popular .listing {
+    margin-bottom: 2rem;
+}
+
+.popular .listing .card {
+    border: none;
+    text-align: center;
+}
+
+.popular .listing .card:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform: scale(1.01);
+    transform: translate(-0.1rem, -0.1rem);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 .2rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.popular .listing .card .title{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) {  
+    .popular {
+        padding: 2rem 0;
+    }
+    
+    .popular .head {
+        margin: 0 auto 1rem;
+    }
+    
+    .popular .head .title {
+        font-size: 1.5rem;
+    }    
+}
+/* popular section ends */
+
+/* order section starts */
+.order {
+    padding: 4rem 0 0;
+    background: url("../public/images/mobile-app-bg.jpg") no-repeat center;
+}
+
+.order .text {
+    color: #fff;
+}
+
+.order .text .title { 
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.order .text .sub { 
+    margin-bottom: 2rem;
+}
+
+.order .text .stores .btn{
+    padding: 0;
+}
+
+.order .text .stores .btn img{
+    width: 9rem;
+}
+
+.order .text .stores .btn:last-child img{
+    width: 11.5rem;
+}
+
+.order .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) {      
+    .order {
+        padding: 2rem 0 0;
+    }
+    
+    .order .text .title { 
+        font-size: 1.7rem;
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+    
+    .order .text .sub { 
+        margin-bottom: 1.5rem;
+    }
+
+    .order .text {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and lower) */
+@media (max-width: 768px) {  
+   
+}
+
+/* Large devices (desktops, 992px and lower) */
+@media (max-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and lower) */
+@media (max-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and lower) */
+@media (max-width: 1400px) {  }
+
+/* order section ends */
+
+
+/* footer section starts */
+.footer {
+    padding: 3rem 0 2rem;
+    background-color: #2b3445;
+}
+
+.footer .details {
+    padding-bottom: 2rem;
+}
+
+.footer .details .logo {
+    text-align: center;
+}
+
+.footer .details .logo img{
+    width: 9rem;
+    display: inline;
+    margin-bottom: 2rem;
+}
+
+.footer .details .logo .btn {
+    border: 1px solid #fff;
+    color: #fff;   
+
+}
+
+.footer .details .logo .btn img{
+    width: 2rem;
+    display: inline;
+    background-color: red;
+}
+
+.footer .details .logo .btn span{
+    background-color: tan;
+    display: inline-block;
+}
+
+.footer .details .backlinks h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+}
+
+.footer .details .backlinks .widget-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .details .backlinks .widget-list a{
+    color: lightgray;
+    text-decoration: none;
+    display: block;
+    font-size: .9rem;
+    margin-bottom: .3rem;
+}
+
+.footer .backlinks h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+}
+
+.footer .backlinks .btn{
+    padding: 0;
+}
+
+.footer .backlinks .btn img{
+    width: 7rem;
+}
+
+.footer .backlinks .btn:last-child img{
+    width: 8.5rem;
+}
+
+.footer hr {
+    border-top: 1px solid lightgray;
+}
+
+.footer .details .extra{
+    padding: 1rem 0;
+}
+
+.footer .extra .text{
+    color: lightgray;
+}
+
+.footer .extra .others .link{
+    font-size: .9rem;
+    color: lightgray;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+/* footer section ends */
+
+
+
+
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) {  
+    
+}
+
+/* Medium devices (tablets, 768px and lower) */
+@media (max-width: 768px) {  
+   
+}
+
+/* Large devices (desktops, 992px and lower) */
+@media (max-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and lower) */
+@media (max-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and lower) */
+@media (max-width: 1400px) {  }

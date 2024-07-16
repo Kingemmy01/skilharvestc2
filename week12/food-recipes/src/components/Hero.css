@@ -1,0 +1,82 @@
+.hero {
+    background-image: url(../../public/images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 70vh;
+    /* padding: 7rem 0 15rem; */
+}
+
+.hero .content {
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(70%);
+}
+
+.hero .content .label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.hero .content .title {
+    font-size: 2.7rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+}
+
+.hero .content .title span {
+    color: #fe696a;
+}
+
+.hero .content .btn {
+    background-color: #fe696a;
+    color: #fff;
+    padding: .75rem 1.4rem;
+}
+
+.hero .content .btn:hover {
+    background: #fe4042;
+    cursor: pointer;
+}
+
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) {  
+    .hero {
+        background-size: cover;
+        height: 50vh;
+    }
+    
+    .hero .content {
+        top: 0;
+        transform: translateY(20%);
+    }
+    
+    .hero .content .label {
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .hero .content .title {
+        font-size: 1.7rem;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and lower) */
+@media (max-width: 768px) {  
+   
+}
+
+/* Large devices (desktops, 992px and lower) */
+@media (max-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and lower) */
+@media (max-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and lower) */
+@media (max-width: 1400px) {  }
